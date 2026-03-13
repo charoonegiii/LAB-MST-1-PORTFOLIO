@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Charoo Negi</h1>
+    <p>AI/ML Student | Speaker</p>
+    <nav>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#resume">RESUME</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+</header>
+
+<section id="ABOUT">
+    <h2>About Me</h2>
+    <p>I am a B.E CSE (AI/ML) student at chandigarh university interested in machine learning and Python.</p>
+</section>
+
+<section id="SKILLS">
+    <h2>SKILLS</h2>
+    <ul>
+        <li>python</li>
+        <li>machine learning</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<section id="PROJECTS">
+    <h2>PROJECTS</h2>
+    <div class="project">
+        <h3>Credit Risk Prediction</h3>
+        <p>AI model to predict credit card issues.</p>
+    </div>
+
+    <div class="project">
+        <h3>Expense Management System</h3>
+        <p>Using Python and MySQL a daily expense tracking system is created.</p>
+    </div>
+</section>
+
+<section id="RESUME">
+    <h2>RESUME</h2>
+    <a href="Charoo Resume.pdf" download>Download Resume</a>
+</section>
+
+<section id="CONTACT">
+    <h2>CONTACT</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name"><br><br>
+        <input type="email" id="email" placeholder="Your Email"><br><br>
+        <textarea id="message" placeholder="Your Message"></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>Charoo Negi</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
