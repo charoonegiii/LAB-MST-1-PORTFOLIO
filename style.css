@@ -14,7 +14,7 @@ padding:20px;
 
 nav a
 {
-color:white;
+color:rgb(251,217,217);
 margin:10px;
 text-decoration:none;
 }
@@ -43,4 +43,5 @@ nav a
 {
 display:block;
 }
+
 }
